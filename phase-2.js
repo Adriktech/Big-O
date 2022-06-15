@@ -23,7 +23,7 @@ function addManyNums10(increment) {
     const addNumsRes = addManyNums(i);
     answer.push(addNumsRes);
   }
-
+  console.log(answer + " <-- console.log");
   return answer;
 }
 
